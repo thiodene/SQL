@@ -1,0 +1,1 @@
+DATE_FORMAT(row, '%e %c %Y %H %i') AS date_row
