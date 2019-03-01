@@ -8,5 +8,7 @@ mysql -u root -p
 # To create a database user, type the following command. Replace username with the user you want to create, 
 # and replace password with the user's password:
 GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+#exit MySQL
+\q
 
 # Now you should be able to connect with that new user on PHPMYADMIN
