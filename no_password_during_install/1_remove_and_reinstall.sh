@@ -14,3 +14,8 @@ sudo apt-get install mysql-server
 # Now start MySQL
 sudo service mysql start
 sudo service apache2 restart
+
+# can still try the command and reset the root password (But connecting might still be an issue after that!)
+mysql_secure_installation
+
+# Better create a new user -> Step 2
