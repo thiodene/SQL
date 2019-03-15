@@ -10,4 +10,5 @@ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 sudo service mysql restart
 
 # Verify the changes
-View Before and After picture
+# View Before and After picture
+netstat -lnp | grep mysql
