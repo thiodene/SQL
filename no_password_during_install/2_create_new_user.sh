@@ -3,7 +3,7 @@
 
 # To create a MySQL database and user, follow these steps:
 # At the command line, log in to MySQL as the root user: 
-mysql -u root -p
+sudo mysql -u root -p
 
 # To create a database user, type the following command. Replace username with the user you want to create, 
 # and replace password with the user's password:
