@@ -1,3 +1,7 @@
 # To make you queries faster for very large SQL table you have to create Index of columns.
 # Source:
 https://www.databasejournal.com/features/mysql/article.php/3840606/Maximizing-Query-Performance-through-Column-Indexing-in-MySQL.htm
+
+# Index key columns in a very large Table:
+ALTER TABLE `ipv4` ADD INDEX( `ip_from`, `ip_to`);
+ALTER TABLE `ipv6` ADD INDEX( `ip_from`, `ip_to`);
