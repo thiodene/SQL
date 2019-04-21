@@ -5,3 +5,8 @@ https://www.databasejournal.com/features/mysql/article.php/3840606/Maximizing-Qu
 # Index key columns in a very large Table:
 ALTER TABLE `ipv4` ADD INDEX( `ip_from`, `ip_to`);
 ALTER TABLE `ipv6` ADD INDEX( `ip_from`, `ip_to`);
+
+# Note: The fewer number of Index, the better! So just pick one main Index and go with it:
+ALTER TABLE `ipv4` ADD INDEX `ip_to`;
+ALTER TABLE `ipv6` ADD INDEX `ip_to`;
+
