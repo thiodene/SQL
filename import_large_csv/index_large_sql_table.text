@@ -1,0 +1,3 @@
+# To make you queries faster for very large SQL table you have to create Index of columns.
+# Source:
+https://www.databasejournal.com/features/mysql/article.php/3840606/Maximizing-Query-Performance-through-Column-Indexing-in-MySQL.htm
